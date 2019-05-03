@@ -1,23 +1,26 @@
----
-title: "Magic Internet Money?"
-subtitle: "How Blockchain Technology Could Revolutionize the 21^st^ Century Economy"
-author: "Dr. Ryan Safner"
-date: "Hood College Phi Kappa Phi Induction Ceremony </br> May 5, 2019"
-output:
-  xaringan::moon_reader:
-    lib_dir: libs
-    #seal: false
-    css: [default, custom.css, default-fonts] #, metropolis, metropolis-fonts
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-      ratio: "16:9"
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Magic Internet Money?</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Dr. Ryan Safner" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="custom.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Magic Internet Money?
+## How Blockchain Technology Could Revolutionize the 21<sup>st</sup> Century Economy
+### Dr. Ryan Safner
+### Hood College Phi Kappa Phi Induction Ceremony </br> May 5, 2019
+
 ---
 
-```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
-```
+
+
 
 background-image: url(https://www.dropbox.com/s/9giz8w1x3pk5f4q/magicinternetmoney.jpg?raw=1)
 background-position: 50% 50%
@@ -76,12 +79,7 @@ class: inverse, center, middle
 
 # Blockchain: the public ledger
 
-```{r, echo=F}
-df<-data.frame(Name=c("Amy", "Brian", "Callie", "David"),
-               Balance=c(10.506, 2.204, 0.298, 3.521))
 
-#knitr::kable(df, format="html")
-```
 
 .center[.image-75[![](https://www.dropbox.com/s/5yzrhmlbamdsetv/blockchainhash.jpg?raw=1)]]
 
@@ -252,3 +250,52 @@ class: blankgray, center, middle
 # Thanks for listening. Hope to see you at Hood soon! 
 
 .logo-left[]
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
