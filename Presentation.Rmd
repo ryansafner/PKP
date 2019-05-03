@@ -1,0 +1,254 @@
+---
+title: "Magic Internet Money?"
+subtitle: "How Blockchain Technology Could Revolutionize the 21^st^ Century Economy"
+author: "Dr. Ryan Safner"
+date: "Hood College Accepted Students Day </br> April 6, 2019"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    #seal: false
+    css: [default, custom.css, default-fonts] #, metropolis, metropolis-fonts
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+background-image: url(https://www.dropbox.com/s/9giz8w1x3pk5f4q/magicinternetmoney.jpg?raw=1)
+background-position: 50% 50%
+class: blank
+
+---
+class: inverse, center, middle
+
+# BITCOIN
+
+---
+
+# Bitcoin
+
+.center[![Pictured: "Satoshi Nakamoto"](https://www.dropbox.com/s/ulg0tagnpbose6w/satoshi.jpeg?raw=1)]
+
+---
+
+class: blank 
+background-image: url(https://www.dropbox.com/s/dg69zmfgg020onj/bitcoinpriceapril2019.png?raw=1)
+background-position: 50% 50%
+
+---
+
+class: inverse, center, middle
+
+# SOME DEFINITIONS
+
+---
+
+# Wallet: "stores" Bitcoins
+
+
+.center[![](http://dropbox.com/s/khbuzt9myvq22yi/bitcoinwallet.jpg?raw=1)]
+
+---
+
+# Wallet as "username" and "password"
+
+.center[![](https://www.dropbox.com/s/cme233mkr4jxkq6/publicprivatekey.png?raw=1)]
+.center[![](https://www.dropbox.com/s/he0rtwl9wvavy2g/bitcoinprivatepublic.png?raw=1)]
+
+---
+
+# Node: runs the software
+
+![Source: [bitnodes.earn.com](https://bitnodes.earn.com/)](https://www.dropbox.com/s/jb9k2kdt5dpo2ik/bitcoinnodesapril2019.png?raw=1)
+
+---
+
+# Miner: verifies transactions
+
+.center[.image-50[![](https://www.dropbox.com/s/4923z1s1anamqup/bitcoinmining.jpg?raw=1)]]
+
+---
+
+# Blockchain: the public ledger
+
+```{r, echo=F}
+df<-data.frame(Name=c("Amy", "Brian", "Callie", "David"),
+               Balance=c(10.506, 2.204, 0.298, 3.521))
+
+#knitr::kable(df, format="html")
+```
+
+.center[.image-75[![](https://www.dropbox.com/s/5yzrhmlbamdsetv/blockchainhash.jpg?raw=1)]]
+
+---
+
+class: blank
+.img[![](https://www.dropbox.com/s/43obw31mcuq1zl6/bitcointransaction.png?raw=1)]
+
+---
+
+class: inverse, center, middle
+
+# THE ARGUMENT FOR BITCOIN
+
+---
+
+# Bitcoin is decentralized
+
+![](https://www.dropbox.com/s/y6vli768u16ms23/bitcoindecentralized.png?raw=1)
+
+---
+
+# Bitcoin is decentralized
+
+.center[![](https://www.dropbox.com/s/4ik44rqyz5la3ow/toobigtofail.jpg?raw=1)]
+
+---
+
+# Bitcoin is open source
+
+.center[![](https://www.dropbox.com/s/j731a7i6qmo1d13/bitcoincode.png?raw=1)]
+
+---
+
+# Bitcoin is accessible
+
+.center[![](https://www.dropbox.com/s/zecdi69olynys53/bitcoindeveloping.jpg?raw=1)]
+
+---
+
+# Bitcoin is secure
+
+.center[![](https://www.dropbox.com/s/22ojj8x71n2dvza/bitcoincryptography.jpg?raw=1)]
+
+---
+
+# Bitcoin has a fixed supply
+
+.center[![](https://www.dropbox.com/s/iotbcvqxc10zejo/moneyprintingpress.jpg?raw=1)]
+
+---
+
+# Cryptocurrencies
+
+.center[![](https://www.dropbox.com/s/90l52zkg6lupthf/cryptoapril2.png?raw=1)
+![](https://www.dropbox.com/s/qgy7rv1bc3wrkdl/cryptoapril.png?raw=1)]
+
+---
+
+class: inverse, center, middle
+
+# Beyond Bitcoin: Blockchain Technology and its Applications
+
+---
+
+# Blockchain Technology
+
+.center[.image-75[![](https://www.dropbox.com/s/qn4kzefv6ec2k6z/blockchainledger.png?raw=1)]]
+
+---
+
+# Blockchain for Identity
+
+.center[![](https://www.dropbox.com/s/xnhufqb2zl7zd6h/phonebook.jpg?raw=1)]
+
+---
+
+# Blockchain for Identity
+
+![](https://www.dropbox.com/s/oilxcnjpw97nxm0/blockchainidentity.png?raw=1)
+
+---
+
+# Blockchain for Media
+
+.center[.image-75[![](https://www.dropbox.com/s/07uea3cqiy13pnb/blockchainfakenews.jpg?raw=1)]]
+
+---
+
+# Blockchain for Food (Safety)
+
+.center[![](https://www.dropbox.com/s/9u6i4ytqyqwr097/blockchainfood.jpg?raw=1)]
+
+---
+
+# Blockchain for Food (Safety)
+
+.center[![](https://www.dropbox.com/s/lfz92h9bbx8qm2y/blockchainfoodsafety.png?raw=1)]
+
+---
+
+# Blockchain for Voting
+
+.center[.image-75[![](https://www.dropbox.com/s/btouy0vjey4uyaq/blockchainvoting.png?raw=1)]]
+
+---
+
+class: inverse, center, middle
+
+# Smart Contracts
+
+---
+
+# Political Economy Since Hobbes
+
+.right-column[
+### "Covenants, without the Sword, are but Words, and of no strength to secure a man at all."
+
+### *Leviathan* (1651), Ch. XVII]
+
+.left-column[.center[![](https://www.dropbox.com/s/yejb6ou2bwaqlxb/hobbes.png?raw=1)
+
+### Thomas Hobbes
+
+### 1588-1679]
+]
+
+---
+
+class: blank
+
+.center[![](https://www.dropbox.com/s/aby3cf6ijkrjs7k/benevolentdespot.jpg?raw=1)]
+
+---
+
+# We Must Trust Corruptible (Centralized) Institutions
+
+.center[.image-50[![](https://www.dropbox.com/s/92fk22dz2zctozu/rentseeking.png?raw=1)]]
+
+---
+
+# Smart Contracts
+
+.center[.image-50[![](https://www.dropbox.com/s/5ymkudg24ciq786/smartcontract.png?raw=1)]]
+
+---
+
+# Smart Contracts
+
+.center[.image-75[![](https://www.dropbox.com/s/f10263i44n4ecot/smartcontracts2.png?raw=1)]]
+
+---
+
+# The Tip of the Iceberg
+
+.center[.image-50[![](https://www.dropbox.com/s/o411dy6gvkx1zh3/internetofthings.jpg?raw=1)]]
+
+---
+
+class: inverse, center, middle
+
+# Questions?
+
+---
+
+class: blankgray, center, middle
+
+# Thanks for listening. Hope to see you at Hood soon! 
+
+.logo-left[]
