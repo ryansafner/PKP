@@ -2,7 +2,7 @@
 title: "Magic Internet Money?"
 subtitle: "How Blockchain Technology Could Revolutionize the 21^st^ Century Economy"
 author: "Dr. Ryan Safner"
-date: "Hood College Phi Kappa Phi Induction Ceremony </br> May 5, 2019"
+date: "Phi Kappa Phi Lecture </br> Hood College </br> May 5, 2019"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -13,17 +13,31 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>`
+
 ---
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 ```
 
-background-image: url(https://www.dropbox.com/s/9giz8w1x3pk5f4q/magicinternetmoney.jpg?raw=1)
-background-position: 50% 50%
-class: blank
+# Amara's Law
+
+.pull-left[
+.center[![Henry Ford and Thomas Edison](https://www.dropbox.com/s/ighyfm3ir5ekh8d/edisonford.jpg?raw=1)]
+]
+
+--
+
+.pull-right[![](https://www.dropbox.com/s/h6m3v8m615q0oav/Amarahypecycle.png?raw=1)
+]
 
 ---
+
 class: inverse, center, middle
 
 # BITCOIN
@@ -32,7 +46,11 @@ class: inverse, center, middle
 
 # Bitcoin
 
-.center[![Pictured: "Satoshi Nakamoto"](https://www.dropbox.com/s/ulg0tagnpbose6w/satoshi.jpeg?raw=1)]
+.pull-left[.center[![Pictured: "Satoshi Nakamoto"](https://www.dropbox.com/s/ulg0tagnpbose6w/satoshi.jpeg?raw=1)]]
+
+--
+
+.pull-right[.center[![](https://www.dropbox.com/s/9giz8w1x3pk5f4q/magicinternetmoney.jpg?raw=1)]]
 
 ???
 
@@ -49,6 +67,12 @@ background-position: 50% 50%
 class: inverse, center, middle
 
 # SOME DEFINITIONS
+
+???
+
+The way we often understand new technologies is with metaphors about old technologies
+
+horse-less carriages
 
 ---
 
@@ -80,19 +104,7 @@ class: inverse, center, middle
 
 # Blockchain: the public ledger
 
-```{r, echo=F}
-df<-data.frame(Name=c("Amy", "Brian", "Callie", "David"),
-               Balance=c(10.506, 2.204, 0.298, 3.521))
-
-#knitr::kable(df, format="html")
-```
-
 .center[.image-75[![](https://www.dropbox.com/s/5yzrhmlbamdsetv/blockchainhash.jpg?raw=1)]]
-
----
-
-class: blank
-.img[![](https://www.dropbox.com/s/43obw31mcuq1zl6/bitcointransaction.png?raw=1)]
 
 ---
 
@@ -116,7 +128,7 @@ class: inverse, center, middle
 
 # Bitcoin is open source
 
-.center[![](https://www.dropbox.com/s/j731a7i6qmo1d13/bitcoincode.png?raw=1)]
+.center[.image-75[![](https://www.dropbox.com/s/j731a7i6qmo1d13/bitcoincode.png?raw=1)]]
 
 ---
 
@@ -129,12 +141,6 @@ class: inverse, center, middle
 # Bitcoin is secure
 
 .center[![](https://www.dropbox.com/s/22ojj8x71n2dvza/bitcoincryptography.jpg?raw=1)]
-
----
-
-# Bitcoin has a fixed supply
-
-.center[![](https://www.dropbox.com/s/iotbcvqxc10zejo/moneyprintingpress.jpg?raw=1)]
 
 ---
 
@@ -177,7 +183,7 @@ class: inverse, center, middle
 
 # Blockchain for Food (Safety)
 
-.center[![](https://www.dropbox.com/s/9u6i4ytqyqwr097/blockchainfood.jpg?raw=1)]
+.center[.image-75[![](https://www.dropbox.com/s/9u6i4ytqyqwr097/blockchainfood.jpg?raw=1)]]
 
 ---
 
@@ -227,13 +233,13 @@ class: blank
 
 ---
 
-# Smart Contracts
+# Smart Contracts: Self-Enforcing Credible Commitments
 
 .center[.image-50[![](https://www.dropbox.com/s/5ymkudg24ciq786/smartcontract.png?raw=1)]]
 
 ---
 
-# Smart Contracts
+# Smart Contracts: Self-Enforcing Credible Commitments
 
 .center[.image-75[![](https://www.dropbox.com/s/f10263i44n4ecot/smartcontracts2.png?raw=1)]]
 
@@ -243,16 +249,14 @@ class: blank
 
 .center[.image-50[![](https://www.dropbox.com/s/o411dy6gvkx1zh3/internetofthings.jpg?raw=1)]]
 
----
+???
 
-class: inverse, center, middle
-
-# Questions?
+Horse-less carriage problem
 
 ---
 
 class: blankgray, center, middle
 
-# Thanks for listening. Hope to see you at Hood soon! 
+# Thanks for listening! 
 
 .logo-left[]
