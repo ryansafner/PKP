@@ -29,6 +29,14 @@ options(htmltools.dir.version = FALSE)
 
 .center[![Henry Ford and Thomas Edison](https://www.dropbox.com/s/ighyfm3ir5ekh8d/edisonford.jpg?raw=1)]
 
+???
+
+Second-order consequences in long run: electricity, Walmart, urban sprawl and ex-urbanization, etc
+
+I want to walk about a new invention, blockchain
+
+Next: we can understand the advanced tech of blockchain through its most famous application:
+
 ---
 
 class: inverse, center, middle
@@ -46,6 +54,10 @@ class: inverse, center, middle
 .pull-right[.center[![](https://www.dropbox.com/s/9giz8w1x3pk5f4q/magicinternetmoney.jpg?raw=1)]]
 
 ???
+
+Invented in 2008 as a peer-to-peer cryptocurrency that would replace the dollar amidst the financial crisis
+
+Title of talk, online sub-reddit community for bitcoin enthusiasts
 
 I am an economist, not a computer scientist
 
@@ -228,7 +240,13 @@ class: blank
 
 ---
 
-# We Must Trust Corruptible (Centralized) Institutions
+# To Enforce Contracts, We Trust in Centralized Institutions...
+
+.center[.image-75[![](https://www.dropbox.com/s/wflae00wz65gbun/court1.jpg?raw=1)]]
+
+---
+
+# ...That Can Be Corrupted
 
 .center[.image-50[![](https://www.dropbox.com/s/92fk22dz2zctozu/rentseeking.png?raw=1)]]
 
@@ -242,7 +260,7 @@ class: blank
 
 # Smart Property
 
-.center[.image-75[![From IBM's "Blockchain for Dummies"](https://www.dropbox.com/s/7vaqnlv53xrgd44/IBMblockchain3.png?raw=1)]]
+.center[.image-50[![From IBM's "Blockchain for Dummies"](https://www.dropbox.com/s/7vaqnlv53xrgd44/IBMblockchain3.png?raw=1)]]
 
 ---
 
